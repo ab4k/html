@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+
+<body>
+    <img usemap="#image-map" src="./leaf.jpg" alt="A leaf">
+
+    <map name="image-map">
+        <area onclick="leaf()" target="" alt="" title="" href="" coords="5040,584,2685,3788" shape="rect">
+        <area onclick="leafLeft()" target="" alt="" title="" href="" coords="3,0,2846,3793" shape="rect">
+    </map>
+    <script>
+        function leaf() {
+            alert("A leaf is clicked.");
+        }
+        function leafLeft() {
+            alert("The left side of leaf is clicked.");
+        }
+    </script>
+</body>
+
+</html>

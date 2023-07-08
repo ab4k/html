@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio & Video Tags</title>
+
+</head>
+
+<body>
+
+    <audio controls src="NEFFEX - Desperate [NCS Release].mp3">This will load only when
+        browser is unable to load the audio file.</audio>
+
+    <p>Another way to embed audio is use src inside source.</p>
+
+    <audio controls autoplay muted>
+        <source src="./NEFFEX - Desperate [NCS Release].mp3" type="">
+    </audio>
+
+    <video src="./video_of_spider (1080p).mp4" width="300px" controls autoplay muted>This will loaded means your browser
+        is
+        unable to
+        support the src
+        file.</video>
+
+    <p>If the controls attribute is not mentioned, only the first frame of the video will be loaded.</p>
+
+    <video controls width="300px">
+        <source src="./video_of_spider (1080p).mp4" type="">
+    </video>
+
+    <p>Emoji using ASCII characters</p>
+    <p>&#128516;</p>
+
+    <p class="sampleClass">Class can be used to target multiple elements.</p>
+    <p id="sampleId">Id can be used to target unique element.</p>
+
+    <aside>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque earum porro vitae perspiciatis eveniet dicta
+        dolorum, illum delectus nihil doloribus accusamus cupiditate dignissimos, consequatur architecto laboriosam.
+        Animi enim quis quos deleniti, odio officiis voluptate aliquid alias! Facere voluptatibus et dolores voluptatum.
+        Rerum vel quis doloremque accusantium obcaecati consectetur asperiores atque porro dolorum saepe quos,
+        voluptates placeat nulla nihil quae voluptas quia praesentium ab cupiditate, modi minus dignissimos.</aside>
+
+    <div>div is block level.</div>
+    <span>span is inline.</span>
+
+    <p>Semantics</p>
+    <nav></nav>
+    <header></header>
+    <section></section>
+    <footer></footer>
+
+    <p>aria-label is used to give label name to differentiate them</p>
+    <section aria-label="Hero-section">This is a section.</section>
+    <section aria-label="Main-section">This is also a section.</section>
+</body>
+
+</html>

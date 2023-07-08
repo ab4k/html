@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Heading</h1>
+    <h2>Another Heading</h2>
+    <h3>The headings are from h1-h6, but if we write h7 the browser will render without any error.</h3>
+    <h7>This is written inside h7 tag</h7>
+
+    <p>If we write CSS inside html document after closing the html tag, it will work but don't do that.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+        <hr>Dolorem nam nobis eaque rerum itaque atque. Repellat cupiditate minima tempore officia molestiae dicta
+        magnam sunt velit inventore incidunt sit, aliquid quisquam?
+    </p>
+
+    <a href="https://ineuron.ai/" target="_blank">Click here</a>
+    <a href="https://ineuron.ai/" target="_parent">Click here</a>
+    <a href="https://ineuron.ai/" target="_top">Click here</a>
+    <a href="https://ineuron.ai/" target="_self">Click here</a>
+
+    <img src="./leaf.jpg" alt="Leaf" width="350px">
+
+    <p>This is <b>bold</b> and this is <strong>strong</strong></p>
+
+    <p>This is <i>itallic</i></p>
+
+    <p>this <sup>above</sup></p>
+    <!-- this is a comment -->
+    <p><a href="https://ineuron.ai/">This is block level now</a></p>
+    <p><a href="https://ineuron.ai/">This is block level now</a></p>
+
+    <iframe src="https://learn.ineuron.ai/" frameborder="0"></iframe>
+
+</body>
+
+</html>
+
+<!-- This CSS will work, but never do this -->
+
+<style>
+    h7 {
+        color: blue;
+    }
+</style>

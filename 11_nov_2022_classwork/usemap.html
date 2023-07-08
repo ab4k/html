@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usemap in Image</title>
+    <style>
+        .reddot {
+            background: red;
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            translate: 200px 220px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Instruction: Click near the red dot to see the Lord Ganesha's Full image.</h3>
+    <div class="reddot"></div>
+    <img src="./shreeganesha.jpg" alt="Shree Ganesha" usemap="#Dukhharta" width="350px">
+    <map name="Dukhharta">
+        <area shape="rect" coords="180, 180, 220, 220" href="./lordGanesha.jpg" alt="Lord Ganesha">
+    </map>
+</body>
+
+</html>
